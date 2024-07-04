@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/twpayne/go-pinentry-minimal/pinentry"
+	"github.com/twpayne/go-pinentry"
 )
 
 func getSecret(udi string, pinentryProgram string) ([]byte, error) {
